@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1453331411 source:g:\c++\justyfikacja\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"siewo.h"
+
+1453331453 g:\c++\justyfikacja\siewo.h
+	<iostream>
+	<string>
+	<fstream>
+
