@@ -23,18 +23,18 @@ int main()
 
     int szer=80;    //szreoksc justowania
     string wynik="";
-    /*std::cout<<"podaj nazwe pliku dla wejscia +'.txt' (nazwa.txt)";
-    std::cin>>input.fname;*/
-    /*std::cout<<"podaj nazwe pliku dla wyjscia +'.txt' (nazwa.txt)";
-    std::cin>>output.fname;*/
+    std::cout<<"podaj nazwe pliku dla wejscia +'.txt' (nazwa.txt)";
+    std::cin>>input.fname;
+    std::cout<<"podaj nazwe pliku dla wyjscia +'.txt' (nazwa.txt)";
+    std::cin>>output.fname;
     /*  //wprowadzanie dowlnej szerkosci text
      *std::cout<<"podaj szerkosc tekstu (liczba):"
      *std::cin>>szer;
     */
     justyfi(input.load(),wynik,szer);
     output.save(wynik);
-    std::cout<<endl<<wynik;
-    cin>>wynik;
+    //std::cout<<endl<<wynik;
+
 
     return 0;
 }
